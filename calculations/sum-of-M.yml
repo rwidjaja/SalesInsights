@@ -1,0 +1,5 @@
+unique_name: sum-of-M
+object_type: metric_calc
+label: sum-of-M
+expression: "sum([Product Dimension].[Product Dimension].[Product Line].&[M ]:[Product\
+  \ Dimension].[Product Dimension].[Product Line].&[R ],[Measures].[salesamount1])"

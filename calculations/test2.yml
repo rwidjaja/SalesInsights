@@ -1,0 +1,5 @@
+unique_name: test2
+object_type: metric_calc
+label: test2
+expression: "IIF(InStr([Product Dimension].[Product Dimension].CurrentMember.MEMBER_NAME,\"\
+  R\")>0,[Measures].[salesamount1],0)"
