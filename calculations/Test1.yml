@@ -1,5 +1,0 @@
-unique_name: Test1
-object_type: metric_calc
-label: Test1
-expression: "IIF(InStr([Geography Dimension].[Geography City].CurrentMember.MEMBER_NAME,\"\
-  Oregon\")>0,[Measures].[salesamount1],0)"
