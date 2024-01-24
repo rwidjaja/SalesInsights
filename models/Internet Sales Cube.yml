@@ -541,11 +541,6 @@ metrics:
   - unique_name: SoldProductNDC-Order Retail445-YTDPrevYear
     folder: Time Relative
 
-  - unique_name: Test1
-
-  - unique_name: test2
-
-  - unique_name: test3
 
 drillthroughs:
 
