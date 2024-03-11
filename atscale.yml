@@ -1,5 +1,4 @@
 unique_name: Sales Insights
-object_type: catalog
 label: Sales Insights
 as_version: 1.0
 aggressive_agg_promotion: false
