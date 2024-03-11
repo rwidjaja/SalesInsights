@@ -3,4 +3,4 @@ label: Sales Insights
 as_version: 1.0
 aggressive_agg_promotion: false
 build_speculative_aggs: false
-object_type: AtscaleSettings
+object_type: catalog
