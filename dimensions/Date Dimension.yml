@@ -557,7 +557,7 @@ level_attributes:
     label: Year
     description: Year level of the Standard Calendar Month Hierarchy.
     dataset: DateCustom
-    name_column: year
+    name_column: year_name
     key_columns:
       - year
     sort_column: year
@@ -569,33 +569,3 @@ level_attributes:
     key_columns:
       - year
     sort_column: year
-
-calculation_groups:
-
-  - unique_name: TimeSeries
-    label: TimeSeries
-
-    calculated_members:
-
-      - unique_name: Date Month Hierarchy Moving Average 5 Period
-        expression: "Avg([Date Dimension].[Date Month Hierarchy].CurrentMember.Lag(4):[Date\
-          \ Dimension].[Date Month Hierarchy].CurrentMember, [Measures].currentMember)"
-        format: Standard
-        hierarchy: Date Month Hierarchy
-        template: Moving Average 5 Period
-
-      - unique_name: Date Month Hierarchy Previous
-        expression: "([Date Dimension].[Date Month Hierarchy].CurrentMember.prevMember,\
-          \ [Measures].currentMember)"
-        format: Standard
-        hierarchy: Date Month Hierarchy
-        template: Previous
-
-      - unique_name: Current
-        description: The measure's value for the current dimension members in the
-          query.
-        expression: "([Date Dimension].[CustomPP445].CurrentMember, [Measures].currentMember)"
-        format: Standard
-        hierarchy: CustomPP445
-        template: Current
-        is_default: true

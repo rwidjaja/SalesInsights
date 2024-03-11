@@ -28,6 +28,21 @@ hierarchies:
 
       - unique_name: Product Name
 
+        secondary_attributes:
+
+          - unique_name: L2
+            label: L2
+            folder: Product Attributes
+            dataset: dimproduct
+            name_column: listprice
+            key_columns:
+              - listprice
+            sort_column: listprice
+            allowed_calcs_for_dma:
+              - Lag
+              - Range
+              - Siblings
+
         metrics:
 
           - unique_name: List Price
@@ -64,3 +79,7 @@ level_attributes:
     name_column: englishproductname
     key_columns:
       - productkey
+
+modeler_metadata:
+  version: 0
+  modified: "false"
