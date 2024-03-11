@@ -1,7 +1,7 @@
 unique_name: Color Dimension
 object_type: dimension
 label: Color Dimension
-description: 'Product Color '
+description: 'Product Color ' 
 is_degenerate: true
 
 hierarchies:
