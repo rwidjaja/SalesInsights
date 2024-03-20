@@ -1,6 +1,6 @@
 unique_name: AtscaleSnowflake
-label: AtscaleSnowflake
 object_type: connection
-as_connection: AtscaleSnowflake
-database: PETPLAN
-schema: FACT
+label: AtscaleSnowflake
+as_connection: Postgres14
+database: atscale_data
+schema: atscale_data
