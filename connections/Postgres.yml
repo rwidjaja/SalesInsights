@@ -3,3 +3,4 @@ label: Postgres
 object_type: connection
 as_connection: Postgres
 schema: atscale_data
+database: atscale
