@@ -1,6 +1,0 @@
-unique_name: AtscaleSnowflake
-object_type: connection
-label: AtscaleSnowflake
-as_connection: Postgres14
-database: atscale_data
-schema: atscale_data
