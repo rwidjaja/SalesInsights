@@ -30,8 +30,8 @@ hierarchies:
 
         metrics:
 
-          - unique_name: List Price
-            label: List Price
+          - unique_name: ListPrice
+            label: ListPrice
             calculation_method: sum
             folder: Product Metrics
             dataset: dimproduct
